@@ -1,3 +1,6 @@
+/* font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +12,15 @@
 }
 .banner-text{
     background-image: url(../resources/banner-image.png);
-    background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
     width: 1320px;
     height: 600px;
     color: #FFF;
+}
+
+.banner-text img{
+    margin: 0 auto;
 }
 .banner-text h1{
     width: 632px;
@@ -22,9 +28,68 @@
     margin: 200px auto;
 }
 .banner p{
+    position: relative;
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    
+    top: 200px;
 }
 
+.offer-text h2{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    /* font-weight: 700; */
+}
+.offer-text p {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.offer-text h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-image{
+    width: 802.9px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../resources/vectorrr.png);
+    background-repeat: no-repeat;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.welcome-text h2{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.welcome-text p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
