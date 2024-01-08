@@ -14,6 +14,8 @@
     width: 1320px;
     height: 600px;
     margin: 50px 280px;
+    
+    
 }
 .banner p{
     color: #FFF;
@@ -30,6 +32,9 @@
     line-height: 95px; /* 131.944% */
 }
 .banner-text{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%);
+    block-size: cover;
+    border-radius: 16px;
     text-align: center;
     width: 632px;
     padding: 233px 344px;
@@ -65,3 +70,130 @@
 }
 /* offer section end */
 
+/* welcome section start */
+.welcome{
+    background-image: url(../resources/vectorrr.png);
+    background-size: cover;
+    border-radius: 20px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 240px;
+    display: flex;
+    padding: 70px;
+}
+.welcome .welcome-text{
+    background-image: linear-gradient(90deg, #07040c 0%, rgba(7, 2, 17, 0.00) 70%);
+    border-radius: 20px;
+    padding: 126px;
+    box-sizing: cover;
+
+}
+.welcome .welcome-text h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;   
+    
+}
+.welcome .welcome-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+}
+.welcome .year{
+    width: 108.985px;
+    height: 152.112px;
+    padding: 20px; 
+}
+.welcome button{
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 32px;
+}
+/* welcome section end */
+
+/* event section start */
+.event-info{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 120px 240px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 80px;
+}
+.event-info .event-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-bottom: 64px;
+}
+.event-info .event-text span{
+    color: #F00;
+}
+.event-info button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* event section end */
+
+.gift{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+.gift-image{
+    display: flex;  
+
+}
+.gift-image, .image{
+    padding: 10px;
+}
+.gift-text h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.gift-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+}
+.gift-text p{
+    /* width: 896px; */
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
